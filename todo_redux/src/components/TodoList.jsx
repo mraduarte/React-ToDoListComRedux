@@ -2,7 +2,16 @@ import React from 'react'
 
 const TodoList = () => {
   return (
-    <div>TodoList</div>
+    <div>
+      <button>Todas</button>
+      <button>Completas</button>
+      <button>Incompletas</button>
+      <ul>
+        <li>
+          <span>Tarefa</span>
+        </li>
+      </ul>
+    </div>
   )
 }
 
